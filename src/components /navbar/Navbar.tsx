@@ -54,7 +54,7 @@ const Navbar = () => {
             }`}
         >
             <div className={Styles.navigation}>
-               <Link  href={'/'}> <button className={Styles.button}>learn more</button></Link> 
+               <Link  href={'/'}> <button className={Styles.button}>MAX Boxing</button></Link> 
                 <div
                     className={Styles.burgerMenuContainer}
                     onClick={() => toggleBurgerMenu()}
@@ -79,6 +79,9 @@ const Navbar = () => {
                     </motion.li>
                     <motion.li variants={listItemVariants}>
                         <a href="/trainers">Trainers</a>
+                    </motion.li>
+                    <motion.li variants={listItemVariants}>
+                        <a href="/contact">Contact</a>
                     </motion.li>
                 </motion.ul>
             </div>

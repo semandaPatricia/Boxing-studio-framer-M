@@ -24,7 +24,7 @@
 .navbar .navigation .button {
     background-color: transparent;
     border: none;
-    font-size: 1rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #f0f0f0;
     transition: 0.5s color;
@@ -99,8 +99,11 @@
 }
 
 .navbar.active .navigation .button {
-    color: white;
+    color:white;
     transition: 0.5s color;
+    font-weight: 800;
+    font-size: 2rem;
+    
 }
 
 .navbar.active .navigation .burgerMenuContainer .burgerMenu {

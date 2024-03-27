@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
+import Link from "next/link";
 const Programs = () => {
   return (
-    <div>Programs page</div>
-  )
-}
+    <h1>
+      programs page
+    </h1>
+  );
+};
 
-export default Programs
+export default Programs;

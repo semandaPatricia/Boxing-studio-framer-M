@@ -9,3 +9,25 @@
     margin-bottom: 1.25rem;
     padding: 1rem;
 }
+.colourchange{
+    color: red;
+    font-size: 2rem;
+}
+
+/* running words */
+.scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+
+.RightToLeft {
+    animation: RightToLeft 10s infinite linear;
+}
+@keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }

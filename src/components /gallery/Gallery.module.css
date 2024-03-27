@@ -1,6 +1,7 @@
 .section {
     height: 100%;
     padding: 10rem 10vw 10rem 10vw;
+    background-color: #000;
 }
 
 .gallery {

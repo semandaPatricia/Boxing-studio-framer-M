@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import React, { useState } from "react";
 import Styles from "./navbar.module.css";
 import { motion } from "framer-motion";
@@ -53,7 +54,7 @@ const Navbar = () => {
             }`}
         >
             <div className={Styles.navigation}>
-                <button className={Styles.button}>learn more</button>
+               <Link  href={'/'}> <button className={Styles.button}>learn more</button></Link> 
                 <div
                     className={Styles.burgerMenuContainer}
                     onClick={() => toggleBurgerMenu()}
@@ -71,13 +72,13 @@ const Navbar = () => {
                         <a href="/">Home</a>
                     </motion.li>
                     <motion.li variants={listItemVariants}>
-                        <a href="/">About us</a>
+                        <a href="/about">About us</a>
                     </motion.li>
                     <motion.li variants={listItemVariants}>
-                        <a href="/">Classes</a>
+                        <a href="/programs">Programs</a>
                     </motion.li>
                     <motion.li variants={listItemVariants}>
-                        <a href="/">Trainers</a>
+                        <a href="/trainers">Trainers</a>
                     </motion.li>
                 </motion.ul>
             </div>

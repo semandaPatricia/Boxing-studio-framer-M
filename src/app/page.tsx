@@ -3,6 +3,7 @@ import Navbar from "@/components /navbar/Navbar";
 import Test from "@/components /Test"
 
 import HeroSection from "@/components /HeroSection";
+import Gallery from "@/components /gallery/Gallery";
 export default function Home() {
   return (
     <main className=' flex flex-col justify-center items-center min-h-screen '>
@@ -11,6 +12,7 @@ export default function Home() {
      <div>
      <HeroSection/>
      <Test/>
+     <Gallery/>
       </div>   
      
    

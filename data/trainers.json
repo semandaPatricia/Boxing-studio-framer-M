@@ -1,0 +1,33 @@
+[
+    {
+      "name": "John Smith",
+      "image": "/john-smith.jpg",
+      "description": "John is a certified personal trainer with 10 years of experience. He specializes in weight training and functional fitness."
+    },
+    {
+      "name": "Emily Johnson",
+      "image": "/emily-johnson.jpg",
+      "description": "Emily is passionate about helping her clients achieve their fitness goals through customized workout plans and nutritional guidance."
+    },
+    {
+      "name": "Michael Davis",
+      "image": "/michael-davis.jpg",
+      "description": "Michael is an endurance athlete turned personal trainer. He enjoys coaching clients in running, cycling, and triathlon."
+    },
+    {
+      "name": "Sarah Miller",
+      "image": "/sarah-miller.jpg",
+      "description": "Sarah believes in a holistic approach to fitness, focusing on strength, flexibility, and mindfulness."
+    },
+    {
+      "name": "David Brown",
+      "image": "/david-brown.jpg",
+      "description": "David's training philosophy centers around functional movement patterns and injury prevention."
+    },
+    {
+      "name": "Jessica White",
+      "image": "/jessica-white.jpg",
+      "description": "Jessica is dedicated to helping her clients improve their overall health and well-being through exercise and lifestyle changes."
+    }
+  ]
+  
